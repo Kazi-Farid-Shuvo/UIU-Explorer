@@ -1,0 +1,2 @@
+Sign up(Cannot create a user if username and email exists already!)
+login query: SELECT * FROM users WHERE (email='$username_email' || username='$username_email') && password='$password'
